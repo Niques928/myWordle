@@ -1,9 +1,9 @@
 
-function Board() {
+function Board(props) {
 
     return (
         <div>
-            <h1> Board</h1>
+            <h1> {props.pressedKey} </h1>
         </div>
     )
 }
