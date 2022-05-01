@@ -6,6 +6,8 @@ function WordleGame() {
 
     // [stateVariable, function that changes the stateVariable]
 const [key, setKey] = useState("")
+    
+
 
    let handleKeyPress = (text) => {
         //passinig this function to child to notify
@@ -16,7 +18,6 @@ const [key, setKey] = useState("")
     }
     return (
         <div>
-            <h1> Game Container </h1>
             <Board pressedKey={key}/>
             <Keyboard onKeyPressed={handleKeyPress}/>
         </div>

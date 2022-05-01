@@ -1,0 +1,32 @@
+
+.board {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.wordrow {
+    width: 500px;
+    height:600px;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.tile {
+   flex: 50%;
+    height: 75px;
+    width: 75px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 5px;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+    font-weight:bolder;
+    color: white;
+    font-family: Arial;
+
+}

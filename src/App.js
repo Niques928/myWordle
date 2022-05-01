@@ -5,7 +5,7 @@ function App() {
   
   return (
     <div>
-      <h1>WORDLE</h1>
+      <h1> WORDLE! </h1>
       <WordleGame />
     </div>
   )
